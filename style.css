@@ -1,0 +1,74 @@
+/* Style Element Tags */
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777;
+  text-align: center;
+  background: #777;
+  width: 960px;
+}
+
+header,
+nav,
+footer {
+  background: #ebebeb;
+  padding: 20px;
+  margin: 10px 30px;
+  clear: both;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  width: 495px;
+  overflow: auto;
+}
+
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+aside {
+  background: white;
+  float: right;
+  width: 40%;
+  padding: 20px;
+}
+
+article {
+  background: #ebebeb;
+  float: left;
+  padding: 20px;
+}
+
+/* Style Classes */
+.container {}
+
+.main {
+  width: 100%;
+}
+
+
+/* Style IDs */
+#h2 {
+  color: #ebebeb;
+  background: #777;
+  padding: 10px;
+  margin: 5px;
+}
+
+#p {
+  color: #ebebeb;
+  background: #777;
+  padding: 10px;
+  margin: 5px;
+}
