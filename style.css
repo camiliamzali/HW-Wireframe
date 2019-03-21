@@ -21,17 +21,18 @@ footer {
   background: #ebebeb;
   padding: 20px;
   margin: 10px 30px;
-  clear: both;
 }
 
 section {
   background: white;
   padding: 20px;
+  margin: 0 30px;
   width: 495px;
   overflow: auto;
+  clear: both;
 }
 
-section::after {
+.main::after {
   content: "";
   display: block;
   clear: both;
@@ -41,21 +42,22 @@ aside {
   background: white;
   float: right;
   width: 40%;
+  height: auto;
   padding: 20px;
+  margin: 0 30px;
 }
 
 article {
   background: #ebebeb;
   float: left;
   padding: 20px;
+  width: 100%;
 }
 
 /* Style Classes */
 .container {}
 
-.main {
-  width: 100%;
-}
+.main {}
 
 
 /* Style IDs */
