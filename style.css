@@ -20,15 +20,15 @@ nav,
 footer {
   background: #ebebeb;
   padding: 20px;
-  margin: 10px 30px;
+  margin: 10px 0;
 }
 
 section {
   background: white;
   padding: 20px;
-  margin: 0 30px;
   width: 495px;
   overflow: auto;
+  float: left;
   clear: both;
 }
 
@@ -41,10 +41,9 @@ section {
 aside {
   background: white;
   float: right;
-  width: 40%;
-  height: auto;
+  width: 46%;
+  height: 433px;
   padding: 20px;
-  margin: 0 30px;
 }
 
 article {
